@@ -1,0 +1,9 @@
+spring:
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 127.0.0.1:9300
+      repositories:
+      #仓库中数据存储
+        enabled: true
+
